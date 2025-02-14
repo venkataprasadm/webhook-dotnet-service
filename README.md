@@ -1,11 +1,3 @@
-# Octokit.Webhooks
-
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/octokit/webhooks.net/build.yml?branch=main&style=for-the-badge)](https://github.com/octokit/webhooks.net/actions/workflows/build.yml?query=branch%3Amain)
-[![Octokit.Webhooks NuGet Package Version](https://img.shields.io/nuget/v/Octokit.Webhooks?style=for-the-badge)](https://www.nuget.org/packages/Octokit.Webhooks/)
-[![Octokit.Webhooks NuGet Package Downloads](https://img.shields.io/nuget/dt/Octokit.Webhooks?style=for-the-badge)](https://www.nuget.org/packages/Octokit.Webhooks/)
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/octokit/webhooks.net?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/octokit/webhooks.net)
-
-Libraries to handle GitHub Webhooks in .NET applications.
 
 ## Usage
 
@@ -93,12 +85,6 @@ or:
 * `configure`. A function that takes an IConfiguration instance and expects the secret you have configured in GitHub in return.
 
 The function is available on the `/api/github/webhooks` endpoint.
-
-## Thanks
-
-- [octokit/webhooks](https://github.com/octokit/webhooks)
-- [terrajobst/Terrajobst.GitHubEvents](https://github.com/terrajobst/Terrajobst.GitHubEvents)
-- [Dotnet-Boxed/Templates](https://github.com/Dotnet-Boxed/Templates)
 
 ## License
 
