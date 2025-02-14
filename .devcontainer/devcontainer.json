@@ -1,0 +1,13 @@
+{
+  "name": "Octokit.Webhooks",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:dev-9.0",
+  "postCreateCommand": "dotnet restore",
+  "features": {
+    "ghcr.io/devcontainers/features/dotnet": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-dotnettools.csdevkit"]
+    }
+  }
+}
